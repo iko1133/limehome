@@ -8,8 +8,13 @@ const Container = styled.View`
   width: 100%;
 `;
 
-const Divider = (props) => {
-  return <Container />;
+/**
+ * A divider border between two blocks of views
+ * @param {style} - styling of the button container
+ */
+
+const Divider = ({ style }) => {
+  return <Container style={style} />;
 };
 
 export default Divider;

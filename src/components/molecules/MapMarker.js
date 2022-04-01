@@ -32,6 +32,13 @@ const ArrowDown = styled.View`
   width: 10px;
 `;
 
+/**
+ * Marker component for the map that shows property price
+ * @param {object} property - object describing the property that marker should display
+ * @param {function} onPress - a callback that's called when the marker is pressed
+ * @param {boolean} isSelected - a boolean indicating, whether marker is selected or not
+ */
+
 const MapMarker = ({ property, onPress, isSelected, ...otherProps }) => {
   return (
     <Container coordinate={property.location} onPress={onPress} {...otherProps}>

@@ -24,7 +24,11 @@ const Map = styled(MapView)`
   width: 100%;
 `;
 
-const MapScreen = (props) => {
+/**
+ * A component that shows the map of different homes that can be visited
+ */
+
+const MapScreen = () => {
   const dispatch = useDispatch();
 
   const [properties, setProperties] = useState([]);
@@ -33,15 +37,18 @@ const MapScreen = (props) => {
 
   const [propertyDetails, setPropertyDetails] = useState({});
 
+  // Toggles details' modal visibility
   const toggleModalVisibility = () =>
     setDetailsModalVisible(!detailsModalVisible);
 
+  // Loads properties list and saves it to local state
   const loadProperties = useCallback(async () => {
     const result = await dispatch(getPropertiesList());
 
     if (result) setProperties(result.map(fixObjectLocationProperty));
   }, []);
 
+  // Loads given property's details and saves it to local state
   const loadPropertyDetails = useCallback(async (id) => {
     setPropertyDetails({}); // Clear old details
 
@@ -50,12 +57,14 @@ const MapScreen = (props) => {
     if (result) setPropertyDetails(result);
   }, []);
 
+  // Starts loading of the currently selected property's details if modal visibility = true is detected
   useEffect(() => {
     if (!detailsModalVisible) return;
 
     loadPropertyDetails(properties[selectedPropertyId].id);
   }, [detailsModalVisible]);
 
+  // Starts loading of properties list when component is mounted
   useEffect(() => {
     loadProperties();
   }, []);

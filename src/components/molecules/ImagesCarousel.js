@@ -30,13 +30,20 @@ const ImageDot = styled.View`
   width: 8px;
 `;
 
-const ImagesCarousel = ({ images }) => {
+/**
+ * Images carousel component that shows horizontally layed images with pagination and current image indicator
+ * @param {array} images - an array of image objects that contain url property of the image wanting to be displayed
+ * @param {object} style - a styling of the container
+ */
+
+const ImagesCarousel = ({ images, style }) => {
   const [shownImageId, setShownImageId] = useState(0);
 
   const imagesScrollRef = useRef();
   const imagesScrollWidth = useRef(PAGE_WIDTH);
   const imagesScrollPositionX = useRef(0);
 
+  // A function that updates current image indicator when necessary
   const handleScroll = (event) => {
     const currX = event.nativeEvent.contentOffset.x;
 
@@ -50,7 +57,7 @@ const ImagesCarousel = ({ images }) => {
   };
 
   return (
-    <ImagesScrollContainer>
+    <ImagesScrollContainer style={style}>
       <ImagesScrollView
         ref={imagesScrollRef}
         horizontal

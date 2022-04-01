@@ -83,6 +83,13 @@ const PropertyPriceText = styled.Text`
   color: ${({ theme }) => theme.SPECIAL_TEXT_COLOR};
 `;
 
+/**
+ * A modal showing a the information of the property given
+ * @param {boolean} visible - a boolean, indicating whether the modal is visible or not
+ * @param {object} propertyDetails - an object containing the information of the property displayed by the component
+ * @param {function} toggleModalVisibility - a function to toggle modal visibility
+ */
+
 const PropertyDetailsModal = ({
   visible,
   propertyDetails,

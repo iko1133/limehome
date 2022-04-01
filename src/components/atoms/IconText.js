@@ -9,6 +9,17 @@ const Container = styled.View`
 
 const Text = styled.Text``;
 
+/**
+ * A text accompanied by icon
+ * @param {string} text - the text displayed by the component
+ * @param {string} iconName - the name of one of the MaterialIcons icon to be shown by the component
+ * @param {object} textStyle - styling of the text
+ * @param {object} style - styling of the component container
+ * @param {float} iconSize - size of the icon (Defaults to 24)
+ * @param {color} iconColor - color of the icon (Defaults to theme.SPECIAL_TEXT_COLOR)
+ * @param {boolean} iconLeft - whether icon should be on the left or the right of the text
+ */
+
 const IconText = ({
   text,
   iconName,

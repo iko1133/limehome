@@ -16,10 +16,17 @@ const CloseButtonX = styled.Text`
   font-size: 20px;
 `;
 
-const CloseButton = ({ onPress, style }) => {
+/**
+ * Default close button (with safeAreaView in mind)
+ * @param {function} onPress - a callback called when button is pressed
+ * @param {object} style - styling of the button container
+ * @param {object} buttonStyle - styling of the button itself
+ */
+
+const CloseButton = ({ onPress, style, buttonStyle }) => {
   return (
     <SafeArea style={style}>
-      <Container onPress={onPress} activeOpacity={0.8}>
+      <Container onPress={onPress} activeOpacity={0.8} style={buttonStyle}>
         <CloseButtonX>X</CloseButtonX>
       </Container>
     </SafeArea>

@@ -5,6 +5,7 @@ const initialState = {
   theme: { ...lightTheme },
 };
 
+// Theme reducer
 const theme = (state = initialState, action) => {
   switch (action.type) {
     case SWITCH_THEME:

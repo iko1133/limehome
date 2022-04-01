@@ -13,10 +13,17 @@ const Container = styled.TouchableOpacity`
 
 const Text = styled(IconText)``;
 
-const Button = ({ onPress, style, ...otherProps }) => {
+/**
+ * Default button component with icon in it
+ * @param {function} onPress - a callback called when button is pressed
+ * @param {object} style - styling of the button
+ * @param {string} text - text written on the button
+ */
+
+const Button = ({ onPress, style, text, ...otherProps }) => {
   return (
     <Container onPress={onPress} style={style}>
-      <Text {...otherProps} />
+      <Text text={text} {...otherProps} />
     </Container>
   );
 };

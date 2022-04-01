@@ -13,6 +13,12 @@ const InnerContainer = styled.View`
   flex: 1;
 `;
 
+/**
+ * A screen component, accounting for the most page needs to be wrapped in (like KeyboardAvoidingView)
+ * @param {object} children - children object to be rendered under screen
+ * @param {object} style - styling of the inner container
+ */
+
 const Screen = ({ children, style }) => {
   return (
     <Background behavior={Platform.OS === "ios" ? "padding" : "height"}>

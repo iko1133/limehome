@@ -53,6 +53,12 @@ const PropertyPriceText = styled.Text`
   color: ${({ theme }) => theme.SPECIAL_TEXT_COLOR};
 `;
 
+/**
+ * A card showing a little bit of information of the property given
+ * @param {object} propertyDetails - an object containing the information of the property displayed by the component
+ * @param {function} onPress - a callback that's called when the card is pressed
+ */
+
 const PropertyDetailsCard = ({ propertyDetails, onPress }) => {
   return (
     <PropertyDetailsViewContainer onPress={onPress} activeOpacity={0.8}>

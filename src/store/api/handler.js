@@ -11,6 +11,7 @@ const handleFetch = (resolve, reject) => {
       const isAttachment = /attachment/.test(contentDisp);
       const isPlainText = /text\/plain/.test(contentType);
 
+      // Handling non successful situations
       if (response.status != "200" && response.status != "202") {
         if (isJson) {
           throw response.json();

@@ -11,6 +11,12 @@ const TagText = styled.Text`
   color: ${({ theme }) => theme.TAG_TEXT_COLOR};
 `;
 
+/**
+ * A component that represents the tag
+ * @param {string} text - text to be displayed by the tag
+ * @param {object} style - styling of the tag container
+ */
+
 const Tag = ({ text, style }) => {
   return (
     <TagContainer style={style}>
