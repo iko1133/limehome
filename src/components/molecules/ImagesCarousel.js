@@ -32,7 +32,7 @@ const ImageDot = styled.View`
 
 /**
  * Images carousel component that shows horizontally layed images with pagination and current image indicator
- * @param {array} images - an array of image objects that contain url property of the image wanting to be displayed
+ * @param {array} images - an array of image objects that contain 'url' property of the image wanting to be displayed
  * @param {object} style - a styling of the container
  */
 

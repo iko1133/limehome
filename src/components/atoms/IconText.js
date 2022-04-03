@@ -25,8 +25,8 @@ const IconText = ({
   iconName,
   textStyle,
   style,
-  iconSize = 24,
   iconColor,
+  iconSize = 24,
   iconLeft = true,
 }) => {
   const theme = useContext(ThemeContext);

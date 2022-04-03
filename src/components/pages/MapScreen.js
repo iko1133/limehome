@@ -78,6 +78,7 @@ const MapScreen = () => {
             onPress={() => setSelectedPropertyId(index)}
             isSelected={selectedPropertyId === index}
             key={`property_marker_${property.id}`}
+            tracksViewChanges={properties.length === 0} // To get markers when addresses are loaded
           />
         ))}
       </Map>

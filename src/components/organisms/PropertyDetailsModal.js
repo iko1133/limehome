@@ -92,7 +92,7 @@ const PropertyPriceText = styled.Text`
 
 const PropertyDetailsModal = ({
   visible,
-  propertyDetails,
+  propertyDetails = {},
   toggleModalVisibility,
 }) => {
   return (

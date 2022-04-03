@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Marker } from "react-native-maps";
 import styled from "styled-components/native";
+
+const COMPONENT_UPDATE_DELAY = 300;
 
 const Container = styled(Marker)`
   align-items: center;
@@ -37,11 +39,37 @@ const ArrowDown = styled.View`
  * @param {object} property - object describing the property that marker should display
  * @param {function} onPress - a callback that's called when the marker is pressed
  * @param {boolean} isSelected - a boolean indicating, whether marker is selected or not
+ * @param {boolean} tracksViewChanges - a boolean indicating, whether the marker should account for tacking view changes
  */
 
-const MapMarker = ({ property, onPress, isSelected, ...otherProps }) => {
+const MapMarker = ({
+  property,
+  onPress,
+  isSelected,
+  tracksViewChanges,
+  ...otherProps
+}) => {
+  const [shouldTrackViewChanges, setShouldTrackViewChanges] = useState(
+    tracksViewChanges || isSelected
+  );
+
+  const disableTracking = () =>
+    setTimeout(() => setShouldTrackViewChanges(false), COMPONENT_UPDATE_DELAY);
+
+  // Sets tracking view changes enabled and then disables it after a certain delay to make performance better
+  useEffect(() => {
+    setShouldTrackViewChanges(true);
+
+    disableTracking();
+  }, [isSelected]);
+
   return (
-    <Container coordinate={property.location} onPress={onPress} {...otherProps}>
+    <Container
+      coordinate={property.location}
+      onPress={onPress}
+      tracksViewChanges={shouldTrackViewChanges}
+      {...otherProps}
+    >
       <MarkerContainer isSelected={isSelected}>
         <MarkerText>{10}€</MarkerText>
       </MarkerContainer>
