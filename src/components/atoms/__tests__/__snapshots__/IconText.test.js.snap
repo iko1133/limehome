@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing IconText Renders IconText with text 'Just Text' on it 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <Text />
+  <Text
+    style={
+      Array [
+        Object {},
+      ]
+    }
+  >
+    Just Text
+  </Text>
+</View>
+`;
+
+exports[`Testing IconText Renders IconText with text 'Text with location pin' on it with location pin icon on left 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <Text />
+  <Text
+    style={
+      Array [
+        Object {},
+      ]
+    }
+  >
+    Text with location pin
+  </Text>
+</View>
+`;
+
+exports[`Testing IconText Renders IconText with text 'Text with star icon on right' on it with star icon on the right 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {},
+      ]
+    }
+  >
+    Text with star icon on right
+  </Text>
+  <Text />
+</View>
+`;

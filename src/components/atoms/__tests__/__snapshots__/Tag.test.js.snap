@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Tag Renders Tag with 'Small tag' text in it 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#CACBAB",
+        "borderRadius": 6,
+        "paddingBottom": 4,
+        "paddingLeft": 4,
+        "paddingRight": 4,
+        "paddingTop": 4,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#7A7B70",
+        },
+      ]
+    }
+  >
+    Small tag
+  </Text>
+</View>
+`;
+
+exports[`Testing Tag Renders Tag with 'THIS IS A BIG, LONG, HUGE TAG' text in it 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#CACBAB",
+        "borderRadius": 6,
+        "paddingBottom": 4,
+        "paddingLeft": 4,
+        "paddingRight": 4,
+        "paddingTop": 4,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#7A7B70",
+        },
+      ]
+    }
+  >
+    THIS IS A BIG, LONG, HUGE TAG
+  </Text>
+</View>
+`;

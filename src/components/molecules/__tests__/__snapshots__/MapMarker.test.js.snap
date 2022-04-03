@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing MapMarker Renders map marker with property 0 on it 1`] = `
+<AIRMapMarker
+  coordinate={
+    Object {
+      "city": "Berlin",
+      "latitude": 52.50176279999999,
+      "longitude": 13.3164893,
+    }
+  }
+  onPress={[Function]}
+  stopPropagation={false}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "position": "absolute",
+      },
+      Array [
+        Object {
+          "alignItems": "center",
+        },
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#4B4B4D",
+          "borderRadius": 6,
+          "paddingBottom": 12,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 12,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#F7F1E9",
+            "fontSize": 14,
+            "fontWeight": "400",
+          },
+        ]
+      }
+    >
+      10
+      €
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#4B4B4D",
+          "height": 10,
+          "marginTop": -5,
+          "transform": Array [
+            Object {
+              "rotate": "45deg",
+            },
+          ],
+          "width": 10,
+        },
+      ]
+    }
+  />
+</AIRMapMarker>
+`;
+
+exports[`Testing MapMarker Renders map marker with property 1 on it, but is also selected 1`] = `
+<AIRMapMarker
+  coordinate={
+    Object {
+      "city": "Berlin",
+      "latitude": 52.52259309999999,
+      "longitude": 13.3589213,
+    }
+  }
+  onPress={[Function]}
+  stopPropagation={false}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "position": "absolute",
+      },
+      Array [
+        Object {
+          "alignItems": "center",
+        },
+      ],
+    ]
+  }
+  tracksViewChanges={true}
+>
+  <View
+    isSelected={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#B26422",
+          "borderRadius": 10,
+          "paddingBottom": 12,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 12,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#F7F1E9",
+            "fontSize": 14,
+            "fontWeight": "400",
+          },
+        ]
+      }
+    >
+      10
+      €
+    </Text>
+  </View>
+  <View
+    isSelected={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#B26422",
+          "height": 10,
+          "marginTop": -5,
+          "transform": Array [
+            Object {
+              "rotate": "45deg",
+            },
+          ],
+          "width": 10,
+        },
+      ]
+    }
+  />
+</AIRMapMarker>
+`;

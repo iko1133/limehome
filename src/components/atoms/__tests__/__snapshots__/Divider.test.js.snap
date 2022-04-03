@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Divider Renders Divider 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "darkgray",
+        "height": 1,
+        "marginBottom": 8,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 8,
+        "width": "100%",
+      },
+    ]
+  }
+/>
+`;

@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing PropertyDetailsCard Renders property details card with property 0 on it 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#F7F1E9",
+      "borderColor": "#9D9E9F",
+      "borderRadius": 4,
+      "borderStyle": "solid",
+      "borderWidth": 1,
+      "bottom": 40,
+      "flexDirection": "row",
+      "opacity": 1,
+      "overflow": "hidden",
+      "position": "absolute",
+      "width": "90%",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "aspectRatio": 1,
+          "height": "100%",
+        },
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "https://limehome.imgix.net/properties/99/9fee5516-9d41-41f7-95ea-6ac72c49fb86.jpg",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": "100%",
+            "width": "100%",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#F7F1E9",
+            "borderRadius": 6,
+            "paddingBottom": 4,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "paddingTop": 4,
+            "position": "absolute",
+            "right": 8,
+            "top": 10,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            },
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {},
+            ]
+          }
+        >
+          4.5
+        </Text>
+        <Text />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "paddingBottom": 12,
+          "paddingLeft": 12,
+          "paddingRight": 12,
+          "paddingTop": 12,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginBottom": 8,
+          },
+        ]
+      }
+    >
+      berlin schlüterstraße
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+          },
+          Object {},
+        ]
+      }
+    >
+      <Text />
+      <Text
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        6 km from city center
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "darkgray",
+            "height": 1,
+            "marginBottom": 8,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 8,
+            "width": "100%",
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      From
+       
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#B26422",
+            },
+          ]
+        }
+      >
+        0.00
+        €/Night
+      </Text>
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Testing PropertyDetailsCard Renders property details card with property 1 on it 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#F7F1E9",
+      "borderColor": "#9D9E9F",
+      "borderRadius": 4,
+      "borderStyle": "solid",
+      "borderWidth": 1,
+      "bottom": 40,
+      "flexDirection": "row",
+      "opacity": 1,
+      "overflow": "hidden",
+      "position": "absolute",
+      "width": "90%",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "aspectRatio": 1,
+          "height": "100%",
+        },
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "https://limehome.imgix.net/properties/152/bff791de-57fa-450b-869d-0a7bfac7a55c.jpg",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": "100%",
+            "width": "100%",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#F7F1E9",
+            "borderRadius": 6,
+            "paddingBottom": 4,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "paddingTop": 4,
+            "position": "absolute",
+            "right": 8,
+            "top": 10,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            },
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {},
+            ]
+          }
+        >
+          4.5
+        </Text>
+        <Text />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "paddingBottom": 12,
+          "paddingLeft": 12,
+          "paddingRight": 12,
+          "paddingTop": 12,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginBottom": 8,
+          },
+        ]
+      }
+    >
+      berlin werftstraße
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+          },
+          Object {},
+        ]
+      }
+    >
+      <Text />
+      <Text
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        3 km from city center
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "darkgray",
+            "height": 1,
+            "marginBottom": 8,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 8,
+            "width": "100%",
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      From
+       
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#B26422",
+            },
+          ]
+        }
+      >
+        0.00
+        €/Night
+      </Text>
+    </Text>
+  </View>
+</View>
+`;

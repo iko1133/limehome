@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Button Renders button with text 'Press Again' on it with star icon 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#4D6447",
+      "borderRadius": 4,
+      "height": 60,
+      "justifyContent": "center",
+      "opacity": 1,
+      "paddingBottom": 0,
+      "paddingLeft": 16,
+      "paddingRight": 16,
+      "paddingTop": 0,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        },
+        Object {},
+      ]
+    }
+  >
+    <Text />
+    <Text
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      Press again
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Testing Button Renders button with text 'Press Again' on it with star icon on the right 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#4D6447",
+      "borderRadius": 4,
+      "height": 60,
+      "justifyContent": "center",
+      "opacity": 1,
+      "paddingBottom": 0,
+      "paddingLeft": 16,
+      "paddingRight": 16,
+      "paddingTop": 0,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        },
+        Object {},
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      Press again
+    </Text>
+    <Text />
+  </View>
+</View>
+`;
+
+exports[`Testing Button Renders button with text 'Press' on it 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#4D6447",
+      "borderRadius": 4,
+      "height": 60,
+      "justifyContent": "center",
+      "opacity": 1,
+      "paddingBottom": 0,
+      "paddingLeft": 16,
+      "paddingRight": 16,
+      "paddingTop": 0,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        },
+        Object {},
+      ]
+    }
+  >
+    <Text />
+    <Text
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      Press
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,1307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing PropertyDetailsModal Renders property details modal nonvisible 1`] = `
+<Modal
+  hardwareAccelerated={false}
+  style={
+    Array [
+      Object {},
+    ]
+  }
+  visible={false}
+>
+  <RCTScrollView
+    showsVerticalScrollIndicator={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#F7F1E9",
+        },
+      ]
+    }
+  >
+    <View>
+      <RCTSafeAreaView
+        emulateUnlessSupported={true}
+        style={
+          Array [
+            Object {},
+            Object {
+              "left": 12,
+              "position": "absolute",
+              "top": 12,
+            },
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#F7F1E9",
+              "borderRadius": 6,
+              "height": 35,
+              "justifyContent": "center",
+              "opacity": 1,
+              "width": 35,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 20,
+                },
+              ]
+            }
+          >
+            X
+          </Text>
+        </View>
+      </RCTSafeAreaView>
+      <View
+        style={
+          Array [
+            Object {
+              "paddingBottom": 20,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 20,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            />
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <Text />
+              <Text
+                style={
+                  Array [
+                    Object {},
+                  ]
+                }
+              >
+                NaN km from city center
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "borderColor": "#9D9E9F",
+                  "borderRadius": 6,
+                  "borderStyle": "solid",
+                  "borderWidth": 1,
+                  "paddingBottom": 6,
+                  "paddingLeft": 6,
+                  "paddingRight": 6,
+                  "paddingTop": 6,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {},
+                  Object {
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              4.5
+            </Text>
+            <Text />
+          </View>
+        </View>
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 15,
+                "lineHeight": 24,
+                "marginBottom": 12,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 12,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "darkgray",
+                "height": 1,
+                "marginBottom": 8,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 8,
+                "width": "100%",
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginBottom": 12,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          Room types available in this location
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "marginBottom": 0,
+                "marginLeft": -2,
+                "marginRight": -2,
+                "marginTop": 0,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#CACBAB",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingBottom": 8,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 8,
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      From
+       
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#B26422",
+            },
+          ]
+        }
+      >
+        0.00
+        €/Night
+      </Text>
+    </Text>
+    <View
+      accessible={true}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#4D6447",
+          "borderRadius": 4,
+          "height": 60,
+          "justifyContent": "center",
+          "opacity": 1,
+          "paddingBottom": 0,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 0,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            },
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {},
+              Object {
+                "color": "white",
+              },
+            ]
+          }
+        >
+          EXPLORE
+        </Text>
+        <Text />
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`Testing PropertyDetailsModal Renders property details modal nonvisible, but with propertyDetails defined 1`] = `
+<Modal
+  hardwareAccelerated={false}
+  style={
+    Array [
+      Object {},
+    ]
+  }
+  visible={false}
+>
+  <RCTScrollView
+    showsVerticalScrollIndicator={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#F7F1E9",
+        },
+      ]
+    }
+  >
+    <View>
+      <RCTSafeAreaView
+        emulateUnlessSupported={true}
+        style={
+          Array [
+            Object {},
+            Object {
+              "left": 12,
+              "position": "absolute",
+              "top": 12,
+            },
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#F7F1E9",
+              "borderRadius": 6,
+              "height": 35,
+              "justifyContent": "center",
+              "opacity": 1,
+              "width": 35,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 20,
+                },
+              ]
+            }
+          >
+            X
+          </Text>
+        </View>
+      </RCTSafeAreaView>
+      <View
+        style={
+          Array [
+            Object {
+              "paddingBottom": 20,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 20,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              berlin werftstraße
+            </Text>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <Text />
+              <Text
+                style={
+                  Array [
+                    Object {},
+                  ]
+                }
+              >
+                3 km from city center
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "borderColor": "#9D9E9F",
+                  "borderRadius": 6,
+                  "borderStyle": "solid",
+                  "borderWidth": 1,
+                  "paddingBottom": 6,
+                  "paddingLeft": 6,
+                  "paddingRight": 6,
+                  "paddingTop": 6,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {},
+                  Object {
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              4.5
+            </Text>
+            <Text />
+          </View>
+        </View>
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 15,
+                "lineHeight": 24,
+                "marginBottom": 12,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 12,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "darkgray",
+                "height": 1,
+                "marginBottom": 8,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 8,
+                "width": "100%",
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginBottom": 12,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          Room types available in this location
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "marginBottom": 0,
+                "marginLeft": -2,
+                "marginRight": -2,
+                "marginTop": 0,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#CACBAB",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingBottom": 8,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 8,
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      From
+       
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#B26422",
+            },
+          ]
+        }
+      >
+        0.00
+        €/Night
+      </Text>
+    </Text>
+    <View
+      accessible={true}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#4D6447",
+          "borderRadius": 4,
+          "height": 60,
+          "justifyContent": "center",
+          "opacity": 1,
+          "paddingBottom": 0,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 0,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            },
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {},
+              Object {
+                "color": "white",
+              },
+            ]
+          }
+        >
+          EXPLORE
+        </Text>
+        <Text />
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`Testing PropertyDetailsModal Renders property details modal with property 0 on it 1`] = `
+<Modal
+  hardwareAccelerated={false}
+  style={
+    Array [
+      Object {},
+    ]
+  }
+  visible={true}
+>
+  <RCTScrollView
+    showsVerticalScrollIndicator={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#F7F1E9",
+        },
+      ]
+    }
+  >
+    <View>
+      <RCTSafeAreaView
+        emulateUnlessSupported={true}
+        style={
+          Array [
+            Object {},
+            Object {
+              "left": 12,
+              "position": "absolute",
+              "top": 12,
+            },
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#F7F1E9",
+              "borderRadius": 6,
+              "height": 35,
+              "justifyContent": "center",
+              "opacity": 1,
+              "width": 35,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 20,
+                },
+              ]
+            }
+          >
+            X
+          </Text>
+        </View>
+      </RCTSafeAreaView>
+      <View
+        style={
+          Array [
+            Object {
+              "paddingBottom": 20,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 20,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              berlin schlüterstraße
+            </Text>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <Text />
+              <Text
+                style={
+                  Array [
+                    Object {},
+                  ]
+                }
+              >
+                6 km from city center
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "borderColor": "#9D9E9F",
+                  "borderRadius": 6,
+                  "borderStyle": "solid",
+                  "borderWidth": 1,
+                  "paddingBottom": 6,
+                  "paddingLeft": 6,
+                  "paddingRight": 6,
+                  "paddingTop": 6,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {},
+                  Object {
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              4.5
+            </Text>
+            <Text />
+          </View>
+        </View>
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 15,
+                "lineHeight": 24,
+                "marginBottom": 12,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 12,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "darkgray",
+                "height": 1,
+                "marginBottom": 8,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 8,
+                "width": "100%",
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginBottom": 12,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          Room types available in this location
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "marginBottom": 0,
+                "marginLeft": -2,
+                "marginRight": -2,
+                "marginTop": 0,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#CACBAB",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingBottom": 8,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 8,
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      From
+       
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#B26422",
+            },
+          ]
+        }
+      >
+        0.00
+        €/Night
+      </Text>
+    </Text>
+    <View
+      accessible={true}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#4D6447",
+          "borderRadius": 4,
+          "height": 60,
+          "justifyContent": "center",
+          "opacity": 1,
+          "paddingBottom": 0,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 0,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            },
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {},
+              Object {
+                "color": "white",
+              },
+            ]
+          }
+        >
+          EXPLORE
+        </Text>
+        <Text />
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`Testing PropertyDetailsModal Renders property details modal with property 1 on it 1`] = `
+<Modal
+  hardwareAccelerated={false}
+  style={
+    Array [
+      Object {},
+    ]
+  }
+  visible={true}
+>
+  <RCTScrollView
+    showsVerticalScrollIndicator={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#F7F1E9",
+        },
+      ]
+    }
+  >
+    <View>
+      <RCTSafeAreaView
+        emulateUnlessSupported={true}
+        style={
+          Array [
+            Object {},
+            Object {
+              "left": 12,
+              "position": "absolute",
+              "top": 12,
+            },
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#F7F1E9",
+              "borderRadius": 6,
+              "height": 35,
+              "justifyContent": "center",
+              "opacity": 1,
+              "width": 35,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 20,
+                },
+              ]
+            }
+          >
+            X
+          </Text>
+        </View>
+      </RCTSafeAreaView>
+      <View
+        style={
+          Array [
+            Object {
+              "paddingBottom": 20,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 20,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              berlin werftstraße
+            </Text>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <Text />
+              <Text
+                style={
+                  Array [
+                    Object {},
+                  ]
+                }
+              >
+                3 km from city center
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "borderColor": "#9D9E9F",
+                  "borderRadius": 6,
+                  "borderStyle": "solid",
+                  "borderWidth": 1,
+                  "paddingBottom": 6,
+                  "paddingLeft": 6,
+                  "paddingRight": 6,
+                  "paddingTop": 6,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {},
+                  Object {
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              4.5
+            </Text>
+            <Text />
+          </View>
+        </View>
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 15,
+                "lineHeight": 24,
+                "marginBottom": 12,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 12,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "darkgray",
+                "height": 1,
+                "marginBottom": 8,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 8,
+                "width": "100%",
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginBottom": 12,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 4,
+              },
+            ]
+          }
+        >
+          Room types available in this location
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "marginBottom": 0,
+                "marginLeft": -2,
+                "marginRight": -2,
+                "marginTop": 0,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#CACBAB",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingBottom": 8,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 8,
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      From
+       
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#B26422",
+            },
+          ]
+        }
+      >
+        0.00
+        €/Night
+      </Text>
+    </Text>
+    <View
+      accessible={true}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#4D6447",
+          "borderRadius": 4,
+          "height": 60,
+          "justifyContent": "center",
+          "opacity": 1,
+          "paddingBottom": 0,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 0,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            },
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {},
+              Object {
+                "color": "white",
+              },
+            ]
+          }
+        >
+          EXPLORE
+        </Text>
+        <Text />
+      </View>
+    </View>
+  </View>
+</Modal>
+`;

@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing ImagesCarousel Renders images carousel with all images in it 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+    ]
+  }
+>
+  <RCTScrollView
+    bounces={false}
+    decelerationRate={0.9}
+    horizontal={true}
+    onContentSizeChange={[Function]}
+    onScroll={[Function]}
+    pagingEnabled={true}
+    scrollEventThrottle={16}
+    showsHorizontalScrollIndicator={false}
+    style={
+      Array [
+        Object {},
+      ]
+    }
+  >
+    <View>
+      <Image
+        source={
+          Object {
+            "uri": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "aspectRatio": 1.4,
+              "width": 750,
+            },
+          ]
+        }
+      />
+      <Image
+        source={
+          Object {
+            "uri": "https://www.appstud.com/wp-content/uploads/2018/03/React-Native-Titre.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "aspectRatio": 1.4,
+              "width": 750,
+            },
+          ]
+        }
+      />
+      <Image
+        source={
+          Object {
+            "uri": "https://miro.medium.com/max/800/1*meCFnZ5MK_7Fu1ogYfBvNQ.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "aspectRatio": 1.4,
+              "width": 750,
+            },
+          ]
+        }
+      />
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "bottom": 20,
+          "flexDirection": "row",
+          "position": "absolute",
+        },
+      ]
+    }
+  >
+    <View
+      isSelected={true}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "black",
+            "borderColor": "white",
+            "borderRadius": 5,
+            "borderStyle": "solid",
+            "borderWidth": 2,
+            "height": 8,
+            "marginBottom": 0,
+            "marginLeft": 2,
+            "marginRight": 2,
+            "marginTop": 0,
+            "width": 8,
+          },
+        ]
+      }
+    />
+    <View
+      isSelected={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "white",
+            "borderRadius": 5,
+            "borderStyle": "solid",
+            "borderWidth": 2,
+            "height": 8,
+            "marginBottom": 0,
+            "marginLeft": 2,
+            "marginRight": 2,
+            "marginTop": 0,
+            "width": 8,
+          },
+        ]
+      }
+    />
+    <View
+      isSelected={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "white",
+            "borderRadius": 5,
+            "borderStyle": "solid",
+            "borderWidth": 2,
+            "height": 8,
+            "marginBottom": 0,
+            "marginLeft": 2,
+            "marginRight": 2,
+            "marginTop": 0,
+            "width": 8,
+          },
+        ]
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Testing ImagesCarousel Renders images carousel with given one image 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+    ]
+  }
+>
+  <RCTScrollView
+    bounces={false}
+    decelerationRate={0.9}
+    horizontal={true}
+    onContentSizeChange={[Function]}
+    onScroll={[Function]}
+    pagingEnabled={true}
+    scrollEventThrottle={16}
+    showsHorizontalScrollIndicator={false}
+    style={
+      Array [
+        Object {},
+      ]
+    }
+  >
+    <View>
+      <Image
+        source={
+          Object {
+            "uri": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "aspectRatio": 1.4,
+              "width": 750,
+            },
+          ]
+        }
+      />
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "bottom": 20,
+          "flexDirection": "row",
+          "position": "absolute",
+        },
+      ]
+    }
+  >
+    <View
+      isSelected={true}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "black",
+            "borderColor": "white",
+            "borderRadius": 5,
+            "borderStyle": "solid",
+            "borderWidth": 2,
+            "height": 8,
+            "marginBottom": 0,
+            "marginLeft": 2,
+            "marginRight": 2,
+            "marginTop": 0,
+            "width": 8,
+          },
+        ]
+      }
+    />
+  </View>
+</View>
+`;
